@@ -86,7 +86,9 @@
             </intent-filter>
         </provider>
 
-        <!-- Privacy settings (dashboard) -->
+        <activity android:name=".gestures.KeyHandler" />
+
+	<!-- Privacy settings (dashboard) -->
         <activity-alias
             android:name=".PrivacySettings"
             android:label="@string/privacy_settings_title"
